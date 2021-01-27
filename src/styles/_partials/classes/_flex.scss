@@ -1,0 +1,45 @@
+@import '../mixins/flex-mixin';
+
+.ms-flex-row {
+    @include ms-flex-row;
+}
+
+.ms-flex-column {
+    @include ms-flex-column;
+}
+
+.ms-flex-justify-center {
+    @include ms-flex-justify-center;
+}
+
+.ms-flex-justify-start {
+    @include ms-flex-justify-start;
+}
+
+.ms-flex-justify-end {
+    @include ms-flex-justify-end;
+}
+
+.ms-flex-justify-space-around {
+    @include ms-flex-justify-space-around;
+}
+
+.ms-flex-justify-space-between {
+    @include ms-flex-justify-space-between;
+}
+
+.ms-flex-justify-space-evenly {
+    @include ms-flex-justify-space-evenly;
+}
+
+.ms-flex-align-center {
+    @include ms-flex-align-center;
+}
+
+.ms-flex-align-start {
+    @include ms-flex-align-start
+}
+
+.ms-flex-align-end {
+    @include ms-flex-align-end;
+}
